@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project_1</title>
+    <link rel="stylesheet" href="index.css" />
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+     integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" 
+     crossorigin="anonymous"> 
+     <!-- script link -->
+     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+       
+   <!-- icons links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="main-div">
+      <div class="nav-menu-div">
+      <nav class="navbar navbar-expand-sm main-nav navbar-light">
+        <a class="navbar-brand" href="#"><img class="img-a" src="img-video/kdk logo.jpeg" /></a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-ul" style="border: 2px solid white;">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbar-ul">
+          <ul class="navbar-nav">
+            <li class="nav-item li-item">
+              <a class="nav-link li-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item li-item">
+              <a class="nav-link li-link" href="about.html">About Kdk</a>
+            </li>
+            <li class="nav-item dropdown li-item">
+              <a class="nav-link dropdown-toggle li-link" id="p1" data-toggle="dropdown" href="#">Departments</a>
+              <div class="dropdown-menu">
+
+                <a class="dropdown-item" href="Engineering.html">Engineering</a>
+                <a class="dropdown-item" href="#">M.Tech</a>
+                <a class="dropdown-item" href="#">M.B.A</a>
+
+              </div>
+            </li>
+            <li class="nav-item li-item">
+              <a class="nav-link li-link" href="courses.html">Courses Offered</a>
+            </li>
+            <li class="nav-item li-item">
+              <a class="nav-link li-link" href="contact_us.html">Contact Us</a>
+            </li>
+            <li class="nav-item li-item">
+              <a class="nav-link li-link" href="#">Alumni</a>
+            </li>
+          </ul>
+        </div>
+       </nav>
+      </div>
+    </div>
+
+     <!-- main section of alumni start -->
+       <div class="alumni-main">
+                <h2>Pictures of Alumni Meet</h2>
+                <div class="alumni-top">
+                  <img class="alumni-img" src="img-video/alumni1.jpeg">
+                  <img style="margin-left: 10px;" class="alumni-img" src="img-video/alumni2.jpeg">
+                </div>
+              <div class="alumni-bottom">
+                  <div class="alumni-left">
+                  <form>
+                    <h2>REGISTER AS ALUMNI</h2>
+                    <input class="alumni-input" type="text" id="first-name" placeholder="Enter First Name">                  
+                    <input class="alumni-input" type="text" id="last-name" placeholder="Enter Last Name">
+                    <input class="alumni-input" type="text" id="departments" placeholder="Enter Department">                 
+                    <input class="alumni-input" type="number" name="passing year" id="passing-year" placeholder="Passing-year">                   
+                    <input class="alumni-input" type="text" name="qualification" id="qualification" placeholder="Qualification">
+                    <input class="alumni-input" type="text" name="current-employment" id="current-employment" placeholder="Current-Employment"> <br><br>
+                    
+                    <textarea class="alumni-textarea" name="Address" id="Address" placeholder="Address"></textarea>
+                    <input class="alumni-input" type="number" id="mobile-number" placeholder="Enter Mobile No."> 
+                    <input class="alumni-input" type="email" name="email" id="email" placeholder="Enter E-mail id">
+                    <input class="alumni-button" type="submit" name="submit" >
+                  </form>
+                  </div>
+              <div class="alumni-right">
+                  <div class="alumni-right-top">
+                    <h2 style="margin-top: 50px;">OUR ALUMNI'S</h2>
+                    <table class="alumni-table">                      
+                      <thead>
+                        <tr class="alumni-tr tr">
+                          <th>S.N</th>
+                          <th>Name</th>
+                          <th>Department</th>
+                          <th>Passing Yr</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr class="alumni-tr">
+                          <td>1</td>
+                          <td>Mr.Abhishek Walkar</td>
+                          <td>Electrical Engineering</td>
+                          <td>2023</td>
+                        </tr>
+                        <tr class="alumni-tr">
+                          <td>2</td>
+                          <td>Ms.Nikita Tarare</td>
+                          <td>Information Technology</td>
+                          <td>2023</td>
+                        </tr>
+                        <tr class="alumni-tr">
+                          <td>3</td>
+                          <td>Ms.Kalyani Barapatre</td>
+                          <td>Electronics and Telecommunication</td>
+                          <td>2021</td>
+                        </tr>
+                        <tr class="alumni-tr">
+                          <td>4</td>
+                          <td>Mr.Ashwin Labhane</td>
+                          <td>Electrical Engineering</td>
+                          <td>2022</td>
+                        </tr>
+                        <tr class="alumni-tr">
+                          <td>5</td>
+                          <td>Ms.Rajnandini Shendre</td>
+                          <td>Civil Engineering</td>
+                          <td>2022</td>
+                        </tr>
+                        <tr class="alumni-tr">
+                          <td>6</td>
+                          <td>Mr.Pravin Nandanvar</td>
+                          <td>Electronics & Telecommunication Engineering</td>
+                          <td>2021</td>
+                        </tr>
+                        <tr class="alumni-tr">
+                          <td>7</td>
+                          <td>Mr.Sandesh Choudhri</td>
+                          <td>Artificial Intellegence and Datascience</td>
+                          <td>2022</td>
+                        </tr>
+                        <tr class="alumni-tr">
+                          <td>8</td>
+                          <td>Mr.Suraj Bhangarkar</td>
+                          <td>Structural Engineering</td>
+                          <td>2019</td>
+                        </tr>
+                        <tr class="alumni-tr">
+                          <td>9</td>
+                          <td>Mr.Prajwal Neral</td>
+                          <td>Mechanical Engineering Design</td>
+                          <td>2024</td>
+                        </tr>
+                        <tr class="alumni-tr">
+                          <td>10</td>
+                          <td>Mr.Milind Bawane</td>
+                          <td>Information Technology</td>
+                          <td>2024</td>
+                        </tr>
+                        <tr class="alumni-tr">
+                          <td>11</td>
+                          <td>Ms.Anagha Tembhurne</td>
+                          <td>M.Tech</td>
+                          <td>2025</td>
+                        </tr>
+                        <tr class="alumni-tr">
+                          <td>12</td>
+                          <td>Mr.Prajwal Ramteke</td>
+                          <td>Computer Science and Technology</td>
+                          <td>2015</td>
+                        </tr>
+                        <tr class="alumni-tr">
+                          <td>13</td>
+                          <td>Mr.Badal Khandare</td>
+                          <td>Civil Engineering</td>
+                          <td>2016</td>
+                        </tr>
+                        <tr class="alumni-tr">
+                          <td>14</td>
+                          <td>Ms.Neha Prajapati</td>
+                          <td>Artificial Intellegence</td>
+                          <td>2017</td>
+                        </tr>
+                        <tr class="alumni-tr">
+                          <td>15</td>
+                          <td>Ms.Rutuja Chunarkar</td>
+                          <td>Mechanical Engineering</td>
+                          <td>2018</td>
+                        </tr>
+                        <tr class="alumni-tr">
+                          <td>16</td>
+                          <td>Mr.Akhil Walkar</td>
+                          <td>M.Tech Engineering</td>
+                          <td>2023</td>
+                        </tr>
+                        <tr class="alumni-tr">
+                          <td>17</td>
+                          <td>Mr.Vikas Tarare</td>
+                          <td>Electronics and Telecommunication</td>
+                          <td>2014</td>
+                        </tr>
+                        <tr class="alumni-tr">
+                          <td>18</td>
+                          <td>Mr.Adinath Barapatre</td>
+                          <td>Electronics and Telecommunication</td>
+                          <td>2017</td>
+                        </tr>
+                        <tr class="alumni-tr">
+                          <td>19</td>
+                          <td>Mr.Ashwin Lonare</td>
+                          <td>Electrical Engineering</td>
+                          <td>2022</td>
+                        </tr>
+                        <tr class="alumni-tr">
+                          <td>20</td>
+                          <td>Ms.vivika Shendre</td>
+                          <td>Civil Engineering</td>
+                          <td>2021</td>
+                        </tr>
+                        <tr class="alumni-tr">
+                          <td>21</td>
+                          <td>Mr.Pravin Shende</td>
+                          <td>Artificial Intellegence</td>
+                          <td>2021</td>
+                        </tr>
+                        <tr class="alumni-tr">
+                          <td>22</td>
+                          <td>Mr.Yash Choudhri</td>
+                          <td>Artificial Intellegence and Datascience</td>
+                          <td>2022</td>
+                        </tr>
+                        <tr class="alumni-tr">
+                          <td>23</td>
+                          <td>Mr.Suraj Dende</td>
+                          <td>Structural Engineering</td>
+                          <td>2019</td>
+                        </tr>
+                        <tr class="alumni-tr">
+                          <td>24</td>
+                          <td>Mr.Kunal Neral</td>
+                          <td>Mechanical Engineering Design</td>
+                          <td>2022</td>
+                        </tr>
+                        <tr class="alumni-tr">
+                          <td>25</td>
+                          <td>Mr.Milind Raut</td>
+                          <td>Information Technology</td>
+                          <td>2024</td>
+                        </tr>
+                        <tr class="alumni-tr">
+                          <td>26</td>
+                          <td>Mr.Aditya Tembhurne</td>
+                          <td>M.Tech</td>
+                          <td>2025</td>
+                        </tr>
+                        <tr class="alumni-tr">
+                          <td>27</td>
+                          <td>Mr.Prajwal Ram</td>
+                          <td>Computer Science and Technology</td>
+                          <td>2017</td>
+                        </tr>
+                        <tr class="alumni-tr">
+                          <td>28</td>
+                          <td>Mr.Jay Khandare</td>
+                          <td>Civil Engineering</td>
+                          <td>2019</td>
+                        </tr>
+                        <tr class="alumni-tr">
+                          <td>29</td>
+                          <td>Ms.Riya Prajapati</td>
+                          <td>Artificial Intellegence and Data Science</td>
+                          <td>2014</td>
+                        </tr>
+                        <tr class="alumni-tr">
+                          <td>30</td>
+                          <td>Ms.Rutu Raut</td>
+                          <td>Mechanical Engineering Design</td>
+                          <td>2020</td>
+                        </tr>
+                        <tr class="alumni-tr">
+                          <td>31</td>
+                          <td>Mr.Aditya Meshram</td>
+                          <td>Mechanical Engineering</td>
+                          <td>2019</td>
+                        </tr>
+                        <tr class="alumni-tr">
+                          <td>32</td>
+                          <td>Mr.Gautam Naman</td>
+                          <td>Information Technology Engineering</td>
+                          <td>2014</td>
+                        </tr>
+                        
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+            </div>
+      </div>
+     <!-- main section of alumni end -->
+
+      <!-- footer start -->
+      <div class="footer">
+        <div class="footer-top">
+        <div class="box1">
+          <img src="img-video/kdk logo.jpeg" class="footer-img">
+          <h2 class="headings1">KDK COLLEGE OF ENGINEERING,NAGPUR</h2>
+           <ul>
+           <li class="icons-li"><i class="fa-brands fa-facebook" style="color: #74C0FC;"></i></li>
+           <li class="icons-li"><i class="fa-brands fa-instagram" style="color: #f2216a;"></i></li>
+           <li class="icons-li"><i class="fa-brands fa-square-twitter" style="color: #74C0FC;"></i></li>
+          </ul>
+        </div>
+        <div class="box2">
+          <h1 class="headings" style=" color: rgb(255, 237, 43);">Quick Links</h1>
+          <ul class="label-ul">
+            <li><h2><a class="label-ul-a" href="#">NAAC</a></h2></li>
+            <li><h2><a class="label-ul-a" href="#">Feedback</a></h2></li>
+            <li><h2><a class="label-ul-a" href="#">Career katta</a></h2></li>
+            <li><h2><a class="label-ul-a" href="#">Training and Internship</a></h2></li>
+          </ul>
+        </div>
+        </div>
+        <div class="footer-bottom">
+        <div class="box3">
+          <h1 class="headings">Map</h1>
+        </div>
+        <div class="box4">
+          <h1 class="headings">Contact Address</h1>
+          <p style="margin-top: 10px; color: black; "><b>Address: Great nag road,nandanvan,Nagpur-440024 (Maharashtra)</p>
+          <p style="margin-top: 10px;"><b>Phone: 07116-420240</p>
+        </div>
+        </div>
+      </div>
+      <div class="last-footer">
+        <p><b>Copyright @2024 KDK College of engineering,Nagpur. <br> All rights reserved. <br>For front-end learning purpose,this site design and developed by Gautam Hatmode : 24/07/2024</b></p>
+      </div>
+      <!-- footer end -->
+    </div>
+  </body>
+</html>
